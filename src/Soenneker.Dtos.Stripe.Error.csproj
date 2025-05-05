@@ -42,7 +42,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Soenneker.Stripe.Enums.DeclineCodes" Version="3.0.1" />
+      <PackageReference Include="Soenneker.Stripe.Enums.DeclineCodes" Version="3.0.3" />
       <PackageReference Include="Soenneker.Stripe.Enums.ErrorCodes" Version="3.0.1" />
       <PackageReference Include="Soenneker.Stripe.Enums.ErrorTypes" Version="3.0.3" />
     </ItemGroup>
