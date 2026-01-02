@@ -14,7 +14,7 @@
         <AssemblyName>Soenneker.Dtos.Stripe.Error</AssemblyName>
         <PackageId>Soenneker.Dtos.Stripe.Error</PackageId>
         <PackageTags>dtos stripe error dto payment processing stripeerrordto object csharp dotnet c# .net</PackageTags>
-        <Copyright>Copyright © 2025 Jake Soenneker</Copyright>
+        <Copyright>Copyright © 2025-2026 Jake Soenneker</Copyright>
         <Authors>Jake Soenneker</Authors>
         <Company>https://soenneker.com</Company>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
