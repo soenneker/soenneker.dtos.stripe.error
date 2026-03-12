@@ -27,7 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Dtos.Stripe.Error.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Dtos.Stripe.Error\Soenneker.Dtos.Stripe.Error.csproj" />
     </ItemGroup>
 
     <ItemGroup>
