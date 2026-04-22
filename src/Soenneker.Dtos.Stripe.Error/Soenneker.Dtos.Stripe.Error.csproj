@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
@@ -32,10 +31,11 @@
         <LangVersion>latest</LangVersion>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>icon.png</PackageIcon>
-    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+        <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
         <PackageReleaseNotes Condition="'$(PACKAGE_RELEASE_NOTES)' != ''">
             $(PACKAGE_RELEASE_NOTES)
-        </PackageReleaseNotes></PropertyGroup>
+        </PackageReleaseNotes>
+    </PropertyGroup>
 
     <ItemGroup>
         <None Include="..\..\README.md" Pack="true" PackagePath="\" />
@@ -44,8 +44,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Soenneker.Stripe.Enums.DeclineCodes" Version="4.0.44" />
-      <PackageReference Include="Soenneker.Stripe.Enums.ErrorCodes" Version="4.0.48" />
-      <PackageReference Include="Soenneker.Stripe.Enums.ErrorTypes" Version="4.0.46" />
+        <PackageReference Include="Soenneker.Stripe.Enums.DeclineCodes" Version="4.0.44" />
+        <PackageReference Include="Soenneker.Stripe.Enums.ErrorCodes" Version="4.0.48" />
+        <PackageReference Include="Soenneker.Stripe.Enums.ErrorTypes" Version="4.0.46" />
     </ItemGroup>
 </Project>

@@ -1,16 +1,15 @@
-﻿using Soenneker.Tests.FixturedUnit;
-using Xunit;
+using Soenneker.Tests.HostedUnit;
 
 namespace Soenneker.Dtos.Stripe.Error.Tests;
 
-[Collection("Collection")]
-public class StripeErrorDtoTests : FixturedUnitTest
+[ClassDataSource<Host>(Shared = SharedType.PerTestSession)]
+public class StripeErrorDtoTests : HostedUnitTest
 {
-    public StripeErrorDtoTests(Fixture fixture, ITestOutputHelper output) : base(fixture, output)
+    public StripeErrorDtoTests(Host host) : base(host)
     {
     }
 
-    [Fact]
+    [Test]
     public void Default()
     {
 
