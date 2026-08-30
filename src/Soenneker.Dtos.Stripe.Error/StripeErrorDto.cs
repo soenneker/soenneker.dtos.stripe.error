@@ -6,10 +6,7 @@ using Soenneker.Stripe.Enums.ErrorTypes;
 namespace Soenneker.Dtos.Stripe.Error;
 
 /// <summary>
-/// A strong type for Stripe's common error response
-/// </summary>
-/// <summary>
-/// A structured representation of a Stripe error response, using strongly-typed enums for reliable handling.
+/// Represents the inner Stripe error object, using strongly typed values for error type, error code, and decline code.
 /// </summary>
 public sealed class StripeErrorDto
 {
