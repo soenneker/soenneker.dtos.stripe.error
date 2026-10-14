@@ -45,8 +45,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Stripe.Enums.DeclineCodes" Version="4.0.79" />
-        <PackageReference Include="Soenneker.Stripe.Enums.ErrorCodes" Version="4.0.83" />
-        <PackageReference Include="Soenneker.Stripe.Enums.ErrorTypes" Version="4.0.79" />
+        <PackageReference Include="Soenneker.Stripe.Enums.DeclineCodes" Version="4.0.85" />
+        <PackageReference Include="Soenneker.Stripe.Enums.ErrorCodes" Version="4.0.89" />
+        <PackageReference Include="Soenneker.Stripe.Enums.ErrorTypes" Version="4.0.85" />
     </ItemGroup>
 </Project>
